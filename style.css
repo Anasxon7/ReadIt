@@ -1,0 +1,481 @@
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+span{
+    color: #3867d6;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background: #383232;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo h1{
+    font-weight: normal;
+}
+
+
+header .navigation a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .navigation a:hover{
+    text-decoration: underline;
+}
+
+
+.home{
+    height: 91.9vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-image: url(./images/about-img.jpg);
+}
+
+.home__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.home h1{
+   
+    font-size: 62px;
+    color: #ffffff;
+    text-align: center;
+    width: 800px;
+    font-family: 'nunito';
+    text-shadow: #000000 5px 5px 10px;
+}
+
+.home__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home__btn button{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    background: #000;
+    font-family: 'nunito';
+    transition: .3s;
+ 
+}
+
+.home__btn button:hover{
+    background: #3867d6;
+    color: #ffffff;
+}
+/* home end */
+
+
+
+
+/* About start */
+
+.about{
+    background: #ffffff;
+    /* background-attachment: fixed; */
+    padding: 0 50px;
+    margin: 0 auto;
+    height: 100vh;
+
+}
+
+.about__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: nunito;
+}
+
+.about__head{
+    font-size: 32px;
+    font-family: nunito;
+    color: #3867d6;
+    text-align: center;
+    padding: 20px;
+}
+
+.about__left img{
+    width: 40vw;
+    height: 50vh;
+    border: 15px solid grey;
+    border-radius: 5px;
+}
+
+.about__right{
+    padding: 10px 30px;
+    text-align: justify;
+}
+/* about end */
+
+
+
+
+/* services start */
+
+.services{
+    height: 100vh;
+    background: #353030;
+    padding: 0 50px;
+}
+
+.services__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.services__head{
+    font-size: 32px;
+    font-family: nunito;
+    text-align: center;
+    padding: 30px;
+}
+
+.services__box{
+    width: 200px;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 10px;
+    text-align: justify;
+    background: #ffffff;
+    font-family: nunito;
+    margin: 10px 40px;
+}
+
+.services__btn{
+    margin: 10px 0;
+    padding: 5px 54px;
+}
+.services__btn:hover{
+    background: #3867d6;
+    border: none;
+    border: 2px solid #3867d6;    
+    border-radius: 2px;
+} 
+/* services end */
+
+
+
+/* gallery start */
+
+.gallery{
+    padding: 10px 50px;
+    height: 100vh;
+    background: #3867d6;
+}
+
+.gallery__head{
+    font-size: 32px;
+    font-family: nunito;
+    text-align: center;
+    padding: 30px;
+}
+
+.gallery__images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery__images img{
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+    border-radius: 5px;
+}
+/* gallery end */
+
+
+
+/* prices start */
+
+.price{
+    padding: 10px 50px;
+    height: 100vh;
+    background: url(./images/price.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+
+}
+
+.price__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.price__head{
+    font-size: 32px;
+    font-family: nunito;
+    text-align: center;
+    padding: 30px;
+}
+
+.price__box{
+    margin: 15px;
+    border-radius: 5px;
+    margin-top: 100px;
+    width: 360px;
+    height: 440px;
+    background: #333;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-family: nunito;
+}
+
+
+.price__box h3{
+    color: #000;
+    padding: 20px 100px;
+    background: 	#CD7F32;
+    border-radius: 5px;
+
+
+}
+
+.price__box button{
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+/* Price end */
+
+
+
+/* contact start */
+
+
+.contact{
+    height: 100vh;
+    padding: 10px 50px;
+    background: #212222;
+}
+
+.contact__head{
+    font-size: 32px;
+    font-family: nunito;
+    text-align: center;
+    padding: 30px;
+}
+
+.contact__content{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.contact__content input{
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: #333;
+    outline: none;
+}
+
+.contact__content textarea{
+    resize: none;
+    padding: 10px;
+    width: 620px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: #333;
+    outline: none;
+    height: 200px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 80px;
+    background: #3867d6;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer a img{
+    width: 20px;
+    height: 20px;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+footer h3{
+    margin-left: 20px;
+    font-family: nunito;
+}
+
+@media only screen and (max-width: 767px) {
+
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 40px;
+        background: #383232;
+        font-family: 'Nunito', sans-serif;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+
+    .home h1{
+   
+        font-size: 32px;
+        color: #ffffff;
+        text-align: center;
+        width: 800px;
+        font-family: 'nunito';
+        text-shadow: #000000 5px 5px 10px;
+    }
+
+
+    header h1{
+        text-align: center;
+    }
+
+    .about{
+        height: 120vh;
+    }
+
+    .about__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        font-family: nunito;
+    }
+
+        
+    .about__head{
+        font-size: 28px;
+        font-family: nunito;
+        color: #3867d6;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .about__left img{
+        width: 50vw;
+        height: 40vh;
+        border: 15px solid grey;
+        border-radius: 5px;
+    }
+
+    .about__right{
+        padding: 10px 20px;
+        text-align: justify;
+    }
+
+    .services{
+        height: 280vh;
+        background: #353030;
+        padding: 0 50px;
+    }
+
+    .gallery{
+        padding: 10px 50px;
+        height: 280vh;
+        background: #3867d6;
+    }
+
+    .price__content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .price{
+        height: 260vh;
+    }
+
+    .contact__content{
+        width: 350px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+
+    .contact__content input{
+        padding: 10px;
+        width: 350px;
+        margin: 10px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        background: #333;
+        outline: none;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
